@@ -1,0 +1,139 @@
+.admin-body {
+	margin: 0px;
+	padding: 0px;
+	min-height: 45em;
+}
+.div-group  {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color: #4876FF;
+}
+.admin-header,.admin-footer {
+	background-color: #F5F5F5;
+	padding: 5px;
+}
+.admin-main {
+	background-color: #ECECEC;
+	min-height: 42em;
+}
+.admin-sidebar {
+/*	background-color: #4876FF;*/
+	height: 45rem;
+}
+/*side bar*/
+.admin-title {
+	font-family: system-ui;
+	color: #ffff;
+	font-weight: 500;
+}
+.sidebar-link{
+	text-decoration: none;
+	color: #ffff;
+	margin-top: 30px !important;
+}
+.sidebar-link > i{
+	font-style: none;
+}
+
+/*Brand page*/
+.form-them *{
+	margin: 5px;
+	font-size: 18px;
+}
+.form-them #tenTH,.input_tenTH{
+	height: 40px;
+	border-radius: 5px;
+	width: 95%;
+	border: 1px solid #C0C0C0;
+	padding: 3px;
+}
+/*End brand page*/
+.form-themsp *{
+	margin: 5px;
+	font-size: 17px;
+}
+.form-themsp input[type="text"], textarea, select{
+	width: 95%;
+	border: 1px solid #C0C0C0;
+	border-radius: 5px;
+	padding: 3px;
+	height: 40px;
+}
+/*Product page admin*/
+.prd-text {
+	border-bottom: 1px solid black;
+	font-size: 17px;
+	color: #696969	;
+}
+
+
+/*Dat*/
+.admin-main h2{
+    height: 32px;
+}
+.dash-border-blue{
+    border: 1px solid #D3D3D3;
+    border-left: 5px  solid #4876FF;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 25px;
+}
+.dash-border-blue h4{
+    color: blue;
+}
+.dash-border-red{
+    border: 1px solid #D3D3D3;
+    border-left: 5px  solid red;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 25px;
+}
+.dash-border-red h4{
+    color: red;
+}
+.dash-border-pink{
+    border: 1px solid #D3D3D3;
+    border-left: 5px  solid #FF1493;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 25px;
+}
+.dash-border-pink h4{
+    color: #FF1493;
+}
+.dash-border-aqua{
+    border: 1px solid #D3D3D3;
+    border-left: 5px  solid #D2691E;
+    border-radius: 5px;
+    background-color: #ffff;
+    padding: 25px;
+}
+.dash-border-aqua h4{
+    color: #D2691E;
+}
+
+.form-them p{
+    width: 150px;
+}
+.form-them input{
+    width: 250px;
+}
+.chitietnv div{
+    width: 150px;
+}
+td input[type="checkbox"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+    .my-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+    }
+
+    .my-container input {
+        margin-right: 15px;
+    }
